@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "SALVATION MAHUMANE VPN TOP SA",
+  "short_name": "SALVATION SA",
+  "description": "Professional South Africa Native VPN with carrier routing, encrypted tunnel, and data plan management.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050811",
+  "theme_color": "#071329",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

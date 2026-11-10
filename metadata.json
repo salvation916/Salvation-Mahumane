@@ -1,0 +1,6 @@
+{
+  "name": "SALVATION MAHUMANE VPN",
+  "description": "Professional South Africa native Android VPN dashboard with carrier routing, encrypted tunnel protocol, access code verification, and data plan management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

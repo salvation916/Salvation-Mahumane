@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07142E" />
+      <stop offset="50%" stop-color="#040A18" />
+      <stop offset="100%" stop-color="#02050D" />
+    </linearGradient>
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <linearGradient id="goldCrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="url(#cyanNeon)" stroke-width="6" opacity="0.6" />
+
+  <!-- Shield Base -->
+  <path d="M 256 70 L 400 130 C 400 280 256 390 256 425 C 256 390 112 280 112 130 Z" fill="#0B1E3F" stroke="url(#cyanNeon)" stroke-width="12" />
+
+  <!-- Golden Crown inside shield -->
+  <path d="M 190 220 L 220 180 L 256 220 L 292 180 L 322 220 L 322 245 L 190 245 Z" fill="url(#goldCrown)" />
+  <circle cx="190" cy="215" r="7" fill="#FDE68A" />
+  <circle cx="220" cy="175" r="7" fill="#FDE68A" />
+  <circle cx="256" cy="215" r="7" fill="#FDE68A" />
+  <circle cx="292" cy="175" r="7" fill="#FDE68A" />
+  <circle cx="322" cy="215" r="7" fill="#FDE68A" />
+
+  <!-- Power Glyph in Cyan -->
+  <path d="M 230 290 A 45 45 0 1 0 282 290" fill="none" stroke="url(#cyanNeon)" stroke-width="14" stroke-linecap="round" />
+  <line x1="256" y1="265" x2="256" y2="305" stroke="url(#cyanNeon)" stroke-width="14" stroke-linecap="round" />
+</svg>
